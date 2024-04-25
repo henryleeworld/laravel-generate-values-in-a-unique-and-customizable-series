@@ -1,4 +1,4 @@
-# Laravel 7 產生獨一無二且可自定義的序號值
+# Laravel 11 產生獨一無二且可自定義的序號值
 
 引入 poing 的 earmark 套件來擴增產生獨一無二且可自定義的序號值，並且提供 `unset` 以移除連續的序號中間任何間隙。
 
@@ -16,9 +16,9 @@ $ composer install
 ```sh
 $ php artisan key:generate
 ```
-- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移，並執行資料庫填充（如果要測試的話）。
+- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移。
 ```sh
-$ php artisan migrate --seed
+$ php artisan migrate
 ```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/serial/generate` 來進行產生序號。
@@ -26,5 +26,5 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/9DEm4v7.png)
+![](https://i.imgur.com/e2jb2tn.png)
 > 利用系統產生自動序號，以確保有獨一無二的主鍵
