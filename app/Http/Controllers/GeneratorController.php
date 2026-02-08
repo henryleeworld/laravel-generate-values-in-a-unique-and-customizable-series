@@ -3,22 +3,22 @@
 namespace App\Http\Controllers;
 
 use Poing\Earmark\Http\Controllers\Serial as Earmark;
-// use Poing\Earmark\Facades\EarMarkFacade as Earkmarked;
 
 class GeneratorController extends Controller
 {
     public $earmark;
 
     /**
-     * Instantiate a new controller instance.
-     *
-     * @return void
+     * Create a new controller instance.
      */
     public function __construct()
     {
         $this->earmark = new Earmark('HENRY', null, 20, 5000, null);
     }
 
+    /**
+     * Display a listing of the resource.
+     */
     public function index()
     {
         $serials = $this->earmark->get(10);

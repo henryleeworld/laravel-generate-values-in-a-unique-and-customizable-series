@@ -1,4 +1,4 @@
-# Laravel 11 產生獨一無二且可自定義的序號值
+# Laravel 12 產生獨一無二且可自定義的序號值
 
 引入 poing 的 earmark 套件來擴增產生獨一無二且可自定義的序號值，並且提供 `unset` 以移除連續的序號中間任何間隙。
 
@@ -26,5 +26,5 @@ $ php artisan migrate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/e2jb2tn.png)
+![](https://i.imgur.com/yEd1ie0.png)
 > 利用系統產生自動序號，以確保有獨一無二的主鍵
